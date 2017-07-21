@@ -2,6 +2,13 @@
 
 This is the MQTT server which is used during the fieldwork at Data Science Africa. It retrieves data from a sensor and publishes it to InfluxDB. The client is located at [janjongboom/dsa2017-fieldwork-fw](https://github.com/janjongboom/dsa2017-fieldwork-fw).
 
+## How it works
+
+It exposes two services:
+
+* MQTT Service for simple sensor data (like temperature / moisture) on port 1883.
+* UDP Service for data that needs high throughput (like accelerometer) on port 1884.
+
 ## How to install
 
 1. Install [node.js](http://nodejs.org) 6.x or higher.
