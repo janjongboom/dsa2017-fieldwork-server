@@ -16,6 +16,7 @@ const listener = {
   host: 'localhost',
   port: 6379,
   return_buffers: true, // to handle binary payloads
+  maxInflightMessages: 10000
 };
 
 const moscaSettings = {

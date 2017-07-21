@@ -1,11 +1,11 @@
 {
-  "name": "connector-mqtt",
+  "name": "dsa-2017-server",
   "version": "1.0.0",
-  "description": "Expose mbed Device Connector resources over MQTT",
+  "description": "Standalone server for DSA2017 fieldwork",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janjongboom/connector-mqtt.git"
+    "url": "git+https://github.com/janjongboom/dsa2017-fieldwork-server.git"
   },
   "keywords": [
     "mqtt",
@@ -14,13 +14,13 @@
   "author": "Jan Jongboom <janjongboom@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/janjongboom/connector-mqtt/issues"
+    "url": "https://github.com/janjongboom/dsa2017-fieldwork-server/issues"
   },
-  "homepage": "https://github.com/janjongboom/connector-mqtt#readme",
+  "homepage": "https://github.com/janjongboom/dsa2017-fieldwork-server#readme",
   "dependencies": {
     "es6-promisify": "^4.1.0",
     "konekuta": "^0.3.2",
-    "mosca": "^2.0.2",
+    "mosca": "^2.5.1",
     "redis": "^2.6.2",
     "request": "^2.81.0"
   }
